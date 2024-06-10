@@ -70,8 +70,8 @@ def main():
         "install": {"required": False, "default": True, "type": "bool"},
         "update": {"required": False, "default": False, "type": "bool"},
         "command": {
-            "required": False, "default": "get",
-            "choices": ["get"]
+            "required": False, "default": "install",
+            "choices": ["install"]
         },
     })
     # module.run_command_environ_update = APT_ENV_VARS
